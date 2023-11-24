@@ -25,7 +25,7 @@ From [Portfolio Project]..CovidDeaths$
 Where location like '%states%'
 order by 1,2
 
--- Looking at Countries with Highest Infection Rtae compared to Population
+-- Looking at Countries with Highest Infection Rate compared to Population
 -- The smallest to the biggest
 
 Select location,population,MAX(total_cases) as HighestInfectionCount, MAX(( total_cases/population))
